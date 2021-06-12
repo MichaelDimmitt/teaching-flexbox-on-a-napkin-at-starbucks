@@ -1,0 +1,84 @@
+<div class="main col b">
+  main
+  <div class="nav a">
+    nav
+  </div>
+  <!-- [1,2,3].map(x =>  -->
+    <div class="post col c">
+      post
+      <div class="headerItem row g">
+        headerItem
+        <div class="image b">
+          image
+        </div>
+        <div class="header-detail col r">
+          header-detail
+          <div class="header-name n">
+            header-name
+          </div>
+          
+          <div class="header-statistic d">
+            header-statistic
+          </div>
+        </div>
+      </div>
+    
+
+      <div class="campaign-medias row k">
+        campaign-media-container
+        <!-- { const items = [1,2,3]
+          items.map(item =>  -->
+          <div class="campaign-media col o">
+            campaign-media
+            <div class="media n ">
+              media
+            </div>
+            <div class="action row d">
+              action
+              <svg class="link b">
+                link
+              </svg>
+              <svg class="download a">
+                download
+              </svg>
+            </div>
+          </div>
+        <!-- )
+      } -->
+      </div>
+    </div>
+  <!-- ) -->
+  
+</div>
+
+<style>
+  .main {
+    width: 100vw;
+    height: 100vh;
+  }
+  .action {
+    height: 400px;
+  }
+  .link { height: 10px; }
+  .download { height: 10px; margin: 10px;}
+  .nav { height: 90px; margin: 10px;}
+  div { width: 90%; height: 90%; padding: 10px;}
+  .b { background-color: powderblue;}
+  .a { background-color: aquamarine;}
+  .c { background-color: chartreuse;}
+  .k { background-color: crimson;}
+  .g { background-color: goldenrod;}
+  .r { background-color: rebeccapurple;}
+  .o { background-color: olivedrab;}
+  .u { background-color: unset;}
+  .n { background-color: navy;}
+  .d { background-color: darkorchid;}
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+  .col {
+    display: flex;
+    flex-direction: column;
+  }
+</style>
